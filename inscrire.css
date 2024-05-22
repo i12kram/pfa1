@@ -1,0 +1,103 @@
+.header{
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(90deg, #CDFFD8, #94B9FF);
+    font-family:  "Open Sans", sans-serif;
+}
+table{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #525356;
+}
+a:hover{
+    font-size: 20px;
+    color: #000000;
+    transition: 0.2s;
+}
+.logo_img_header{
+    height: 75px;
+    position: relative;
+    left: -24%;
+    top: 0.5vh;
+}
+.links_header{
+    text-align: center;
+    width: 15%;
+}
+/*header buttons*/
+.sign_btn_header{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    height: 5.5vh;
+    width: 22vh;
+    background-color: #2471ff;
+    border: 0px #002697 solid;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+.sign_btn_header:hover{
+    cursor: pointer;
+    font-size: 16px;
+    background: #1351c4;
+    
+}
+.sidebar{
+    text-align: center;
+    width: 8%;
+}
+.nav_bar_btn{
+    border: 0.5px solid rgba(0, 0, 0, 0.308);
+    background-color: #ffffff67;
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    border-radius: 100%;
+}
+.nav_bar_btn:hover{
+    cursor: pointer;
+    background-color: #7fd0ff2d;
+    color: #ffffff;
+    transition: 0.2s;
+}
+/*carte de navigation*/
+.collapsable_nav{
+    height: 0vh;
+    width: 25%;
+    background-color: #8b8b8b5d;
+    position: relative;
+    right: -75%;
+    transition: 1s;
+}
+#table_elements{
+    display: none;
+}
+.footer{
+    width: 100%;
+    height: 25vh;
+    background: linear-gradient(90deg, #CDFFD8, #94B9FF);
+    font-family:  "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #525356;
+}
+a:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+table{
+    width: 100%;
+    height: 33.33%;
+}
+.icon_footer_img{
+    height: 40px;
+}
+.icon_footer{
+    width: 8%;
+}
