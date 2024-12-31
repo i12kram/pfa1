@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('clone') {
+            steps {
+               git branch: 'main', url: 'https://github.com/i12kram/pfa1.git'
+            }
+        }
+        stage('compile') {
+            steps {
+                script {
+                    docker.build('php-app').inside {
+                        sh 'find . -name "*.php" -exec php -l {} \\;'
+                    }
+                }
+            }
+        }
+    }
+}
